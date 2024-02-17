@@ -1,10 +1,13 @@
+#Imports random module to use for dice rolls
 import random
 
+#Variables to keep track of the space a player is on
 playOne = 0
 playTwo = 0
 
 print ("Welcome to the game of Chutes and Ladders! ")
-    
+
+#While loop for iteration of the game
 while playOne < 100 or playTwo < 100:
         # Player One 
         print ("Player One! ")
